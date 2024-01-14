@@ -44,10 +44,30 @@ console.log(heros[3][1]); //prints flash
 //concat returns new array
 heros.concat(dc)
 
-console.log(heros); //also nest into array
+console.log(heros); //also nest into array into array
 
 const allHeros = heros.concat(dc)
 console.log(allHeros); //this will merge two array
 
-const All_new_heros = [...heros,...dc]
+//spread
+const All_new_heros = [...heros,...dc]//this is way to merge arrays
 console.log(All_new_heros);
+
+const anotherArray =[1,2,3,[4,5,6],7,[6,7,[4,5]]]
+
+const usableAnotherArray = anotherArray.flat(Infinity)//this will solve the arry to a usab;e format
+console.log(usableAnotherArray); 
+
+
+console.log(Array.isArray("Anshu"));//false
+console.log(Array.from("Anshu"));//coberts to array
+console.log(Array.from({name :"anshu"})); //returns [] empty array
+
+let score1=2
+let score2=3
+let score3=22
+let score4=23
+
+console.log(Array.of(score1,score2,score3,score4)); //coberts the diffrent elemnts to array
+
+
