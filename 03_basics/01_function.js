@@ -73,3 +73,4 @@ function returnSecondValue(getArray){
 }
 console.log(returnSecondValue(myNewArray));
 console.log(returnSecondValue([200,322,1223,222]));
+
