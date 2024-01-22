@@ -1,5 +1,4 @@
-// Stack (primitive type eg int)  
-// Heap (Non- Primitive type)
+// Stack (primitive type)  // Heap (Non- Primitive type)
 
 let myName = "AnshuGupta"
 
