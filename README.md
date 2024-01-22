@@ -1,3 +1,5 @@
 # js-chai-with-code
-js Basics
->hello
+
+
+>js Basics
+>Everyday Learning new things in javascript
