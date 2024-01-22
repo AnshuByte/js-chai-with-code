@@ -22,4 +22,5 @@ do{
 }while (score<=10) 
 
 // console.log(0018); gives 18 converts into decimal
-console.log(017);
+// console.log(017); gives 15
+console.log(0117);
