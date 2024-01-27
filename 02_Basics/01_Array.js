@@ -68,6 +68,6 @@ let score2=3
 let score3=22
 let score4=23
 
-console.log(Array.of(score1,score2,score3,score4)); //coberts the diffrent elemnts to array
+console.log(Array.of(score1,score2,score3,score4)); //converts the diffrent elements to array
 
 
