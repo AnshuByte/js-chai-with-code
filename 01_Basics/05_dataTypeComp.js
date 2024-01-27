@@ -24,5 +24,5 @@ console.log(undefined >= 0); //false
 
 // ===
 console.log("2" == 3); //false
-console.log("2" === 2); //false (=== does not convert the datatype to integer)
+console.log("2" === 2); //false (=== does not convert the datatype to integer) === is also known as strict checking
 console.log("2" == 2); //true
