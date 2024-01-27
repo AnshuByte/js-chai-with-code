@@ -60,7 +60,7 @@ console.log(usableAnotherArray);
 
 
 console.log(Array.isArray("Anshu"));//false
-console.log(Array.from("Anshu"));//coberts to array
+console.log(Array.from("Anshu"));//converts to array
 console.log(Array.from({name :"anshu"})); //returns [] empty array
 
 let score1=2
